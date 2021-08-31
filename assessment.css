@@ -27,26 +27,20 @@ thead > tr {
 
 blockquote {
   background-color: black;
-  color: white;
+  color: orange;
 }
 
- #teamRoster > li:first-child {
-   padding-left: 130px;
-   border-bottom: 0px;
+ #teamRoster > li:first-child > ul {
    background: url('https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg') no-repeat;
-   width:auto;
-   height:180px;
+   background-size: contain;
 }
 
-#teamRoster > li:last-child {
-  padding-left: 90px;
-  border-bottom: 0px;
+#teamRoster > li:last-child > ul{
   background: url('https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg') no-repeat;
-  width:auto;
-  height:130px;
+  background-size: contain;
 }
 
-img {
+[alt~=Logo] {
   display:none;
 }
 
